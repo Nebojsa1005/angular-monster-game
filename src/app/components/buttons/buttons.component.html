@@ -1,0 +1,9 @@
+<div class="inner-container">
+    <button class="button" (click)="onStart()">Start Game</button>
+    <div class="main-buttons" *ngIf="gameStarted">
+        <button class="button" (click)="attack()">Attack</button>
+        <button class="button" (click)="specialAttack()">Special Attack</button>
+        <button class="button" (click)="heal()">Heal</button>
+        <button class="button" (click)="surrender()">Surrender</button>
+    </div>
+</div>

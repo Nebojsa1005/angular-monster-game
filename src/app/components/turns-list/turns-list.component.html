@@ -1,0 +1,3 @@
+<ul class="">
+    <li [ngClass]="{red: !turn.isPlayer, blue: turn.isPlayer}" *ngFor="let turn of turns">{{ turn.text }}</li>
+</ul>

@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+app-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+app-health-bars {
+    width: 100%;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 70px;
+    width: 40%;
+    height: 50vh;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

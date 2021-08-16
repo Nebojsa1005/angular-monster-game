@@ -1,0 +1,18 @@
+<div class="health-bar-container">
+    <div class="health-bar">
+        <span>Player Health</span>
+        <div class="health">
+            <div class="bar" [ngStyle]="{width: playerHealth + '%'}">
+                {{ playerHealth }}
+            </div>
+        </div>
+    </div>
+    <div class="health-bar">
+        <span>Monster Health</span>
+        <div class="health">
+            <div class="bar" [ngStyle]="{width: monsterHealth + '%'}">
+                {{monsterHealth}}
+            </div>
+        </div>
+    </div>
+</div>
